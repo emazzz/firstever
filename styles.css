@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@font-face {
+    font-family: "StyreneB-Black";
+    src: url("fonts/StyreneB-Black.otf") format("bold"),
+         url("fonts/StyreneA-Light.otf") format("light");
+         font-weight: normal;
+         font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    color:rgb(206, 108, 123);
+}
+
+#bordertitle {
+    text-align: center;
+    font-size: 400%;
+    margin: 0%;
+    font-family: "StyreneB-Black";
+    -webkit-text-stroke: 1.25px;
+    -webkit-text-stroke-color: white;
+    color: rgb(229, 131, 146);
+    
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#navul {
+    margin: 0;
+}
+
+#navul li {
+    display: inline;
+}
+
+#navul a {
+    display: inline-block;
+    padding: .5em;
+    color:rgb(167, 63, 6);
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: lighter;
+    border-bottom: 1px dotted rgb(159, 46, 8);
+}
+
+.main-nav li {
+padding: 0 5%;
+}
+
+#navul a:hover {
+background-color:antiquewhite;
+}
+
+.main-header {
+    background-color:bisque;
+    background-image: url(images/background.jpeg);
+    background-blend-mode: overlay;
+    background-size: cover;
+    padding-bottom: 10px;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-family: "StyreneB-Black";
+    text-align: center;
+    font-size: 2em;
+}
+
+#centerimageblock {
+    display: flex;
+    justify-content: center;
+}
+
+.group-pic {
+    margin-bottom: .5px;
+    border-radius: 1%;
+}
+
+html footer {
+    margin: 0
+    padding: 0;
+}
+
+footer {
+    background-color: bisque;
+    background-image: url("images/background.jpeg");
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+
+footer a:hover, li {
+    display: inline-block;
+    margin: .5em;
+    background-color: antiquewhite;
+    max-height: 24px;
+    max-width: 24px;
+}
+
+h3 {
+    color: rgb(154, 78, 7);
+    -webkit-text-stroke: .3px;
+    -webkit-text-stroke-color: coral;
+    text-align: left;}
+
+footer ul {
+    text-align: right;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: right;
+}
+
+h3 a {
+    text-decoration: none;
+}
